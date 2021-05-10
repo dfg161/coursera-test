@@ -1,0 +1,105 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+   h1 {
+    margin-bottom: 45px;
+    margin-top: 45px;
+    text-align: center;
+  }
+  
+  .father {
+    text-align: justify;
+    border: 4px solid black;
+    background-color: gray;
+    width: 90%;
+    height: 150px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    position: relative;
+    padding: 40px 10px 10px 10px;
+  }
+
+  .son1{
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    background-color: salmon;
+    border: 2px solid black;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    padding: 5px;
+  }
+
+  .son2{
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(161, 35, 35);
+    border: 2px solid black;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    padding: 5px;
+  }
+  
+  .son3{
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    background-color: #cac46b;
+    border: 2px solid black;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    padding: 5px;
+  }
+
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+    }
+    .col-md-4 {
+      width: 50%;
+    }
+    .col-md-8 {
+      width: 50%;
+    }
+    .col-md-9 {
+        width: 100%;
+      }
+  }
